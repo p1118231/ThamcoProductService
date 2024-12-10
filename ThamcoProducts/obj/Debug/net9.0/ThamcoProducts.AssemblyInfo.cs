@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThamcoProducts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22d337a78834ffcb9f0ce110bb1bda7bb01573f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d2f6faa66c8db68893231c4ebaf57185fa5c06e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThamcoProducts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThamcoProducts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

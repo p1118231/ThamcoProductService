@@ -185,3 +185,9 @@
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ThamcoProductsTest.pdb
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ThamcoProductsTest.genruntimeconfig.cache
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ref/ThamcoProductsTest.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.Extensions.Http.Polly.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.Core.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.Extensions.Http.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/System.Net.Http.Formatting.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll

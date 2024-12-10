@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using ThamcoProducts.Services.ProductRespository;
 using ThamcoProducts.Services.Undercutters;
 
 
@@ -14,10 +15,13 @@ namespace ThamcoProducts.Controllers
         private readonly ILogger<DebugController> _logger;
         private IUndercuttersService _undercuttersService;
 
-        public DebugController(ILogger<DebugController> logger, IUndercuttersService undercuttersService)
+        private IProductSerivce _productService;
+
+        public DebugController(ILogger<DebugController> logger, IUndercuttersService undercuttersService, IProductSerivce productSerivce)
         {
             _logger = logger;
             _undercuttersService = undercuttersService;
+            _productService = productSerivce;
         }
 
          [HttpGet("Undercutters")]
@@ -35,6 +39,28 @@ namespace ThamcoProducts.Controllers
 
                 _logger.LogWarning("failure to access undercutters service ");
                 products= Array.Empty<ProductDto>();
+
+            }
+
+            return Ok(products.ToList());
+
+        }
+
+        [HttpGet("FakeProducts")]
+       
+        public async Task<IActionResult> FakeProducts()
+        {
+            IEnumerable<Product> products = null!;
+
+            try{
+
+                products = await _productService.GetProductsAsync();
+
+            }
+            catch{
+
+                _logger.LogWarning("failure to access undercutters service ");
+                products= Array.Empty<Product>();
 
             }
 
