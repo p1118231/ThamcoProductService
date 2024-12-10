@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Hosting;
+using ThamcoProducts.Services.Undercutters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                     });
 builder.Services.AddAuthorization();
 builder.Logging.AddConsole();
+
+if(builder.Environment.IsDevelopment()){
+    builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
+}
 
 var app = builder.Build();
 
