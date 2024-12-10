@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThamcoProducts", "ThamcoProducts\ThamcoProducts.csproj", "{58F1FD66-F395-4EC9-8FC3-7E2ACE17B6A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThamcoProductsTest", "ThamcoProductsTest\ThamcoProductsTest.csproj", "{DEA67065-3D3D-44A5-8132-A4437A424122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{58F1FD66-F395-4EC9-8FC3-7E2ACE17B6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58F1FD66-F395-4EC9-8FC3-7E2ACE17B6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58F1FD66-F395-4EC9-8FC3-7E2ACE17B6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA67065-3D3D-44A5-8132-A4437A424122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA67065-3D3D-44A5-8132-A4437A424122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA67065-3D3D-44A5-8132-A4437A424122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA67065-3D3D-44A5-8132-A4437A424122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

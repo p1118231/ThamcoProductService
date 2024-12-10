@@ -31,3 +31,4 @@
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProducts/obj/Debug/net9.0/ThamcoProducts.pdb
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProducts/obj/Debug/net9.0/ThamcoProducts.genruntimeconfig.cache
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProducts/obj/Debug/net9.0/ref/ThamcoProducts.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProducts/obj/Debug/net9.0/ThamcoProducts.sourcelink.json
