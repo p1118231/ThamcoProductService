@@ -177,3 +177,11 @@
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts.pdb
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
