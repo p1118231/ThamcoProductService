@@ -19,6 +19,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpClient();  // Register HttpClient for DI
+
+builder.Services.AddScoped<IUndercuttersService, UndercuttersService>();
+
 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -31,12 +35,12 @@ builder.Services.AddAuthorization();
 builder.Logging.AddConsole();
 
 if(builder.Environment.IsDevelopment()){
-    builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
+  //  builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
     builder.Services.AddSingleton<IProductSerivce, ProductFakeService>();
 }
 else {
 
-   builder.Services.AddHttpClient<IUndercuttersService, UndercutterService>()
+   builder.Services.AddHttpClient<IUndercuttersService, UndercuttersService>()
                     .AddPolicyHandler(GetRetryPolicy())
                     .AddPolicyHandler(GetCircuitBreakerPolicy()); ;
     

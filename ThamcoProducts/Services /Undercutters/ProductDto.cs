@@ -1,4 +1,5 @@
 using System;
+using Microsoft.VisualBasic;
 
 namespace ThamcoProducts.Services.Undercutters;
 
@@ -24,7 +25,7 @@ public class ProductDto{
 
     public Boolean InStock{get; set;}
 
-    public DateTime ExpectedRestock {get; set;}
+    //public DateFormat ExpectedRestock {get; set;}
 
 
 }

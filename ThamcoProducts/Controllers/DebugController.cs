@@ -59,7 +59,7 @@ namespace ThamcoProducts.Controllers
             }
             catch{
 
-                _logger.LogWarning("failure to access undercutters service ");
+                _logger.LogWarning("failure to access products service ");
                 products= Array.Empty<Product>();
 
             }
