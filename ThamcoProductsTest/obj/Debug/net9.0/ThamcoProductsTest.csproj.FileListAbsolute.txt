@@ -166,3 +166,14 @@
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ThamcoProductsTest.pdb
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ThamcoProductsTest.genruntimeconfig.cache
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ref/ThamcoProductsTest.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/.msCoverageSourceRootsMapping_ThamcoProductsTest
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts.deps.json
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts.runtimeconfig.json
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/appsettings.Development.json
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/appsettings.json
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts.staticwebassets.endpoints.json
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProducts.pdb
