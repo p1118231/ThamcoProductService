@@ -35,7 +35,7 @@ builder.Services.AddAuthorization();
 builder.Logging.AddConsole();
 
 if(builder.Environment.IsDevelopment()){
-  //  builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
+   // builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
     builder.Services.AddSingleton<IProductSerivce, ProductFakeService>();
 }
 else {
@@ -56,8 +56,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-
 
 app.UseRouting();
 

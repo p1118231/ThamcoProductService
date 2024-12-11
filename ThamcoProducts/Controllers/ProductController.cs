@@ -25,7 +25,7 @@ namespace ThamcoProducts.Controllers
         }
 
         [HttpGet("Undercutters")]
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> UnderCutters()
         {
             IEnumerable<ProductDto> products = null!;
