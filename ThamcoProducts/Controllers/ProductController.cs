@@ -9,23 +9,23 @@ namespace ThamcoProducts.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DebugController : ControllerBase
+    public class ProductController : ControllerBase
     {
         // GET: api/weather
-        private readonly ILogger<DebugController> _logger;
+        private readonly ILogger<ProductController> _logger;
         private IUndercuttersService _undercuttersService;
 
         private IProductSerivce _productService;
 
-        public DebugController(ILogger<DebugController> logger, IUndercuttersService undercuttersService, IProductSerivce productSerivce)
+        public ProductController(ILogger<ProductController> logger, IUndercuttersService undercuttersService, IProductSerivce productSerivce)
         {
             _logger = logger;
             _undercuttersService = undercuttersService;
             _productService = productSerivce;
         }
 
-         [HttpGet("Undercutters")]
-       
+        [HttpGet("Undercutters")]
+        [Authorize]
         public async Task<IActionResult> UnderCutters()
         {
             IEnumerable<ProductDto> products = null!;

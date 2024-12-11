@@ -13,9 +13,11 @@
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProductsTest.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/ThamcoProductsTest.pdb
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.ApplicationInsights.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/System.Net.Http.Formatting.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.Extensions.Http.Polly.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
@@ -38,6 +40,10 @@
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/testhost.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.Core.dll
+/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.Extensions.Http.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/cs/Microsoft.Testing.Extensions.Telemetry.resources.dll
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/de/Microsoft.Testing.Extensions.Telemetry.resources.dll
@@ -185,9 +191,3 @@
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ThamcoProductsTest.pdb
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ThamcoProductsTest.genruntimeconfig.cache
 /Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/obj/Debug/net9.0/ref/ThamcoProductsTest.dll
-/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Microsoft.Extensions.Http.Polly.dll
-/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.dll
-/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.Core.dll
-/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Polly.Extensions.Http.dll
-/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/System.Net.Http.Formatting.dll
-/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll

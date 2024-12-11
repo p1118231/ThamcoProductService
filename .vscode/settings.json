@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8794b1bc-5ffb-466b-b406-9d127113c9b9/resourceGroups/THAMCO-group/providers/Microsoft.Web/sites/Thamco-Products",
+    "appService.deploySubpath": "."
+}
