@@ -2,7 +2,7 @@ using System;
 
 namespace ThamcoProducts.Services.ProductRespository;
 
-public class ProductFakeService : IProductSerivce
+public class ProductFakeService : IProductService
 {
 
     private readonly Product[]  _products =
