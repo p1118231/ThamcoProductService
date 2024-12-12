@@ -15,9 +15,9 @@ namespace ThamcoProducts.Controllers
         private readonly ILogger<ProductController> _logger;
         private IUndercuttersService _undercuttersService;
 
-        private IProductSerivce _productService;
+        private IProductService _productService;
 
-        public ProductController(ILogger<ProductController> logger, IUndercuttersService undercuttersService, IProductSerivce productSerivce)
+        public ProductController(ILogger<ProductController> logger, IUndercuttersService undercuttersService, IProductService productSerivce)
         {
             _logger = logger;
             _undercuttersService = undercuttersService;
