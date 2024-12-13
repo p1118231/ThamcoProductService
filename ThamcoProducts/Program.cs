@@ -34,7 +34,7 @@ builder.Services.AddAuthorization();
 builder.Logging.AddConsole();
 
 if(builder.Environment.IsDevelopment()){
-   // builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
+    builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
     builder.Services.AddSingleton<IProductService, ProductFakeService>();
 }
 else {
