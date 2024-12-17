@@ -20,10 +20,17 @@ public class UndercuttersService : IUndercuttersService
 
         public async Task<IEnumerable<ProductDto>> GetProductsAsync()
         {
-            var uri = "api/Product";
-            var response = await _client.GetAsync(uri);
-            response.EnsureSuccessStatusCode();
-            var products = await response.Content.ReadAsAsync<IEnumerable<ProductDto>>();
-            return products;
+            var uri = "api/Product"; 
+            try
+            {
+                var response = await _client.GetAsync(uri);
+                response.EnsureSuccessStatusCode();  // Throws if not a successful status code
+                var products = await response.Content.ReadAsAsync<IEnumerable<ProductDto>>();
+                return products;
+            }
+            catch (Exception)
+            {
+                return Array.Empty<ProductDto>();  // Return an empty list if any exception occurs
+            }
         }
 }
