@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iYEn3oPUOpE=",
+  "dgSpecHash": "DIhZNikYk/4=",
   "success": true,
   "projectFilePath": "/Users/breezy/Documents/breezy/third_year/ProductService/ThamcoProductsTest/ThamcoProductsTest.csproj",
   "expectedPackageFiles": [
+    "/Users/breezy/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/microsoft.applicationinsights/2.22.0/microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/microsoft.aspnet.webapi.client/6.0.0/microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.0/microsoft.aspnetcore.authentication.jwtbearer.9.0.0.nupkg.sha512",
@@ -38,6 +39,7 @@
     "/Users/breezy/.nuget/packages/microsoft.testing.platform.msbuild/1.4.1/microsoft.testing.platform.msbuild.1.4.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/microsoft.testplatform.objectmodel/17.11.1/microsoft.testplatform.objectmodel.17.11.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/microsoft.testplatform.testhost/17.11.1/microsoft.testplatform.testhost.17.11.1.nupkg.sha512",
+    "/Users/breezy/.nuget/packages/moq/4.20.72/moq.4.20.72.nupkg.sha512",
     "/Users/breezy/.nuget/packages/mstest/3.6.1/mstest.3.6.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/mstest.analyzers/3.6.1/mstest.analyzers.3.6.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/mstest.testadapter/3.6.1/mstest.testadapter.3.6.1.nupkg.sha512",
@@ -48,6 +50,7 @@
     "/Users/breezy/.nuget/packages/polly.core/8.5.0/polly.core.8.5.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/polly.extensions.http/3.0.0/polly.extensions.http.3.0.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/Users/breezy/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
     "/Users/breezy/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
