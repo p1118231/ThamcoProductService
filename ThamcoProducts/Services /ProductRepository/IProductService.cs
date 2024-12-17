@@ -2,7 +2,7 @@ using System;
 
 namespace ThamcoProducts.Services.ProductRespository;
 
-public interface IProductSerivce{
+public interface IProductService{
 
     Task<IEnumerable<Product>> GetProductsAsync();
 }

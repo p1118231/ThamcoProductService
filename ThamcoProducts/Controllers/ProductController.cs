@@ -11,13 +11,13 @@ namespace ThamcoProducts.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        // GET: api/weather
+        
         private readonly ILogger<ProductController> _logger;
         private IUndercuttersService _undercuttersService;
 
-        private IProductSerivce _productService;
+        private IProductService _productService;
 
-        public ProductController(ILogger<ProductController> logger, IUndercuttersService undercuttersService, IProductSerivce productSerivce)
+        public ProductController(ILogger<ProductController> logger, IUndercuttersService undercuttersService, IProductService productSerivce)
         {
             _logger = logger;
             _undercuttersService = undercuttersService;
@@ -25,7 +25,7 @@ namespace ThamcoProducts.Controllers
         }
 
         [HttpGet("Undercutters")]
-        //[Authorize]
+        [Authorize]
         public async Task<IActionResult> UnderCutters()
         {
             IEnumerable<ProductDto> products = null!;

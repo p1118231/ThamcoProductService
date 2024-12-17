@@ -22,8 +22,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHttpClient();  // Register HttpClient for DI
 
 builder.Services.AddScoped<IUndercuttersService, UndercuttersService>();
-
-
+builder.Services.AddScoped<IProductService, ProductFakeService>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                     .AddJwtBearer(options =>
@@ -35,8 +34,8 @@ builder.Services.AddAuthorization();
 builder.Logging.AddConsole();
 
 if(builder.Environment.IsDevelopment()){
-   // builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
-    builder.Services.AddSingleton<IProductSerivce, ProductFakeService>();
+    builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
+    builder.Services.AddSingleton<IProductService, ProductFakeService>();
 }
 else {
 
