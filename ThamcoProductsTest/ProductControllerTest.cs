@@ -16,7 +16,7 @@ namespace ThamcoProductsTests
     {
         private Mock<ILogger<ProductController>> _mockLogger;
         private Mock<IUndercuttersService> _mockUndercuttersService;
-        private Mock<IProductSerivce> _mockProductService;
+        private Mock<IProductService> _mockProductService;
         private ProductController _controller;
 
         [TestInitialize]
@@ -24,7 +24,7 @@ namespace ThamcoProductsTests
         {
             _mockLogger = new Mock<ILogger<ProductController>>();
             _mockUndercuttersService = new Mock<IUndercuttersService>();
-            _mockProductService = new Mock<IProductSerivce>();
+            _mockProductService = new Mock<IProductService>();
 
             _controller = new ProductController(_mockLogger.Object, _mockUndercuttersService.Object, _mockProductService.Object);
         }
