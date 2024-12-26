@@ -7,6 +7,7 @@ public class UndercuttersService : IUndercuttersService
 {
 
     private readonly HttpClient _client;
+    
 
         public UndercuttersService(HttpClient client, IConfiguration configuration)
         {
@@ -30,6 +31,7 @@ public class UndercuttersService : IUndercuttersService
             }
             catch (Exception)
             {
+                
                 return Array.Empty<ProductDto>();  // Return an empty list if any exception occurs
             }
         }
