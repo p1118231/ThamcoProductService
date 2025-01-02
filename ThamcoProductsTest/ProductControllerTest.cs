@@ -14,10 +14,10 @@ namespace ThamcoProductsTests
     [TestClass]
     public class ProductControllerTests
     {
-        private Mock<ILogger<ProductController>> _mockLogger;
-        private Mock<IUndercuttersService> _mockUndercuttersService;
-        private Mock<IProductService> _mockProductService;
-        private ProductController _controller;
+        public required  Mock<ILogger<ProductController>> _mockLogger;
+         public required Mock<IUndercuttersService> _mockUndercuttersService;
+         public required Mock<IProductService> _mockProductService;
+         public required ProductController _controller;
 
         [TestInitialize]
         public void Setup()

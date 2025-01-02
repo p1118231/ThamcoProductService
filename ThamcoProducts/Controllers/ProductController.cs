@@ -14,8 +14,9 @@ namespace ThamcoProducts.Controllers
         
         private readonly ILogger<ProductController> _logger;
         private IUndercuttersService _undercuttersService;
-
         private IProductService _productService;
+
+        
 
         public ProductController(ILogger<ProductController> logger, IUndercuttersService undercuttersService, IProductService productSerivce)
         {
@@ -24,9 +25,12 @@ namespace ThamcoProducts.Controllers
             _productService = productSerivce;
         }
 
+        //get products 
+
         [HttpGet("Undercutters")]
         [Authorize]
         public async Task<IActionResult> UnderCutters()
+
         {
             IEnumerable<ProductDto> products = null!;
 
@@ -45,9 +49,9 @@ namespace ThamcoProducts.Controllers
             return Ok(products.ToList());
 
         }
+        //get fake products
 
         [HttpGet("FakeProducts")]
-       
         public async Task<IActionResult> FakeProducts()
         {
             IEnumerable<Product> products = null!;

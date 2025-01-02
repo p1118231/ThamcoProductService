@@ -15,10 +15,10 @@ namespace ThamcoProductsTests
     [TestClass]
     public class UndercuttersServiceTests
     {
-        private Mock<IConfiguration> _mockConfiguration;
-        private Mock<HttpMessageHandler> _mockHttpMessageHandler;
-        private HttpClient _mockHttpClient;
-        private UndercuttersService _undercuttersService;
+         public required Mock<IConfiguration> _mockConfiguration;
+         public required Mock<HttpMessageHandler> _mockHttpMessageHandler;
+         public required HttpClient _mockHttpClient;
+         public required UndercuttersService _undercuttersService;
 
         [TestInitialize]
         public void Setup()

@@ -11,7 +11,7 @@ public class UndercuttersService : IUndercuttersService
 
         public UndercuttersService(HttpClient client, IConfiguration configuration)
         {
-            // FIXME: don't hardcode base URLs
+            
             var baseUrl = configuration["WebServices:Undercutters:BaseURL"] ?? "";
             client.BaseAddress = new System.Uri(baseUrl);
             client.Timeout = TimeSpan.FromSeconds(10);

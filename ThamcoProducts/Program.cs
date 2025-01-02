@@ -15,13 +15,14 @@ using Polly.Extensions.Http;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHttpClient();  // Register HttpClient for DI
 
 builder.Services.AddScoped<IUndercuttersService, UndercuttersService>();
+builder.Services.AddScoped<IUndercuttersService, UndercuttersFakeService>();
 builder.Services.AddScoped<IProductService, ProductFakeService>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -35,7 +36,6 @@ builder.Logging.AddConsole();
 
 if(builder.Environment.IsDevelopment()){
     builder.Services.AddSingleton<IUndercuttersService, UndercuttersFakeService>();
-    builder.Services.AddSingleton<IProductService, ProductFakeService>();
 }
 else {
 
