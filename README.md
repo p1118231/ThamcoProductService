@@ -1,3 +1,4 @@
+P1118231_BENJAMIN_SSETTUBA
 ThamcoProducts Web API
 
 ThamcoProducts is a RESTful Web API designed to manage product data. It integrates with external services to retrieve product information and exposes endpoints to perform CRUD operations on the products. The API is built using ASP.NET Core, supports secure communication, and is designed to be resilient with Polly for handling transient failures.
